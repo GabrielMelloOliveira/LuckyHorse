@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoadingController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/Splash%20Screen.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="457.0" layoutX="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Logo.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="pb_loading" layoutX="100.0" layoutY="509.0" prefHeight="46.0" prefWidth="600.0" progress="0.0" />
+   </children>
+</AnchorPane>
