@@ -36,7 +36,7 @@ public class GameController implements Initializable {
     
     private int vencedor, segundo_lugar;
     
-    private HashMap map;
+    private HashMap map = new HashMap();
     
     void init_map(){
         map.put(1, "Perola");
